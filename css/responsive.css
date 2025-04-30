@@ -1,0 +1,38 @@
+@media (max-width: 426px) {
+    
+    .menu-toggle {
+        display: block;
+      }
+    
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: #938b84;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+    
+      .nav-links.active {
+        display: flex;
+      }
+
+      #maxito-helper{
+        display: none;
+      }
+
+      .hero-icon{
+        display: block;
+      }
+}
+
+@media (max-width: 321px){
+    .logotipo h1 {
+        font-size: 1.4rem;
+      
+    }
+}
